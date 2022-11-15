@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NOUR-ALSHAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1444-01-14 11:01:31 &#1589;"/>
+        <attribute name="created" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMDc7MDk6NTc6MTgg2YU7NDYwNA=="/>
+        <attribute name="edited" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMTQ7MTE6MDE6MzEg2LU7Mjs0Njcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, x" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="i" expression="1"/>
+            <while expression="i&lt;=10">
+                <assign variable="x" expression="n*i"/>
+                <output expression="x" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

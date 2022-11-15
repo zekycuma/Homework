@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NOUR-ALSHAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1444-01-06 03:03:59 &#1605;"/>
+        <attribute name="created" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMDY7MDI6NTY6NTQg2YU7NDU5NQ=="/>
+        <attribute name="edited" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMDY7MDM6MDM6NTkg2YU7MTs0NzAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f, c" type="Integer" array="False" size=""/>
+            <comment text="f=feet&#13;&#10;c=cm"/>
+            <input variable="f"/>
+            <assign variable="c" expression="f*30"/>
+            <output expression="c&amp; &quot;cm&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

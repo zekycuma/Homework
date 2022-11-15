@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NOUR-ALSHAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1444-01-14 02:19:29 &#1605;"/>
+        <attribute name="created" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMDc7MTE6MTE6MDQg2YU7NDU4Mg=="/>
+        <attribute name="edited" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMTQ7MDI6MTk6Mjkg2YU7Mjs0NzA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, n, r, x" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="a" expression="0"/>
+            <assign variable="x" expression="n"/>
+            <while expression="n!=0">
+                <assign variable="r" expression="n%10"/>
+                <assign variable="a" expression="a*10+r"/>
+                <assign variable="n" expression="n/10"/>
+            </while>
+            <if expression="a==x">
+                <then>
+                    <output expression="&quot;it is&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;it isnt&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

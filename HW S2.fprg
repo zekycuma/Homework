@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NOUR-ALSHAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1444-01-06 02:35:26 &#1605;"/>
+        <attribute name="created" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMDY7MDI6MzE6MDcg2YU7NDU4Ng=="/>
+        <attribute name="edited" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMDY7MDI6MzU6MjYg2YU7MTs0Njk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, p, A" type="Integer" array="False" size=""/>
+            <assign variable="p" expression="3"/>
+            <input variable="r"/>
+            <assign variable="A" expression="p*r^2"/>
+            <output expression="A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

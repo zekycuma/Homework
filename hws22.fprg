@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NOUR-ALSHAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1444-01-14 12:19:00 &#1605;"/>
+        <attribute name="created" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMTQ7MTE6NTU6MDcg2LU7NDU3NQ=="/>
+        <attribute name="edited" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMTQ7MTI6MDE6MzQg2YU7MTtOT1VSLUFMU0hBTTtERVNLVE9QLTZTR0JORjE7MTQ0NC0wMS0wNzsxMDoxNDoxNiDZhTtodyBzMjAuZnByZzsxMDM0MQ=="/>
+        <attribute name="edited" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMTQ7MTI6MTk6MDAg2YU7Mjs0Njk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, n, sw, i, f, l, k, x, c" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="i" expression="0"/>
+            <assign variable="sw" expression="0"/>
+            <assign variable="a" expression="n"/>
+            <assign variable="c" expression="n"/>
+            <assign variable="l" expression="n%10"/>
+            <assign variable="k" expression="n-l"/>
+            <while expression="n!=0">
+                <assign variable="n" expression="n/10"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <assign variable="sw" expression="l*10^(i-1)"/>
+            <while expression="a&gt;=10">
+                <assign variable="a" expression="a/10"/>
+                <assign variable="f" expression="a"/>
+            </while>
+            <assign variable="x" expression="c-f*10^(i-1)"/>
+            <assign variable="sw" expression="sw+x"/>
+            <assign variable="sw" expression="sw-l"/>
+            <assign variable="sw" expression="sw+f"/>
+            <output expression="sw" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

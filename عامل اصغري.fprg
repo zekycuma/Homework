@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NOUR-ALSHAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1444-01-07 11:46:56 &#1605;"/>
+        <attribute name="created" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMDc7MTE6Mjg6NDAg2YU7NDU5MA=="/>
+        <attribute name="edited" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMDc7MTE6NDY6NTYg2YU7MTs0NzA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, i, a, j" type="Integer" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <assign variable="i" expression="1"/>
+            <assign variable="a" expression="1"/>
+            <if expression="n1&gt;n2">
+                <then>
+                    <assign variable="j" expression="n1/n2"/>
+                </then>
+                <else>
+                    <assign variable="j" expression="n2/n1"/>
+                </else>
+            </if>
+            <while expression="i&lt;=j">
+                <if expression="n1%i==0 || n2%i==0">
+                    <then>
+                        <assign variable="a" expression="i"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <output expression="a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

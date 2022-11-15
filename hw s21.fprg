@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NOUR-ALSHAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1444-01-08 12:38:42 &#1605;"/>
+        <attribute name="created" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMDg7MTI6MTU6MjMg2YU7NDU4OQ=="/>
+        <attribute name="edited" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMDg7MTI6Mzg6NDIg2YU7MTs0NzAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, f, l" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="l" expression="n%10"/>
+            <while expression="n&gt;=10">
+                <assign variable="n" expression="n/10"/>
+                <assign variable="f" expression="n"/>
+            </while>
+            <output expression="&quot;first number is&quot;&amp;f" newline="True"/>
+            <output expression="&quot;lest number is&quot;&amp;l" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NOUR-ALSHAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1444-01-14 03:06:19 &#1605;"/>
+        <attribute name="created" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMTQ7MDI6NDQ6MDgg2YU7NDU5MA=="/>
+        <attribute name="edited" value="Tk9VUi1BTFNIQU07REVTS1RPUC02U0dCTkYxOzE0NDQtMDEtMTQ7MDM6MDY6MTkg2YU7MTs0Njk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, j, i, r, cunt" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="i" expression="0"/>
+            <while expression="i&lt;10">
+                <assign variable="j" expression="n"/>
+                <assign variable="cunt" expression="0"/>
+                <while expression="j&gt;0">
+                    <assign variable="r" expression="j%10"/>
+                    <if expression="i==r">
+                        <then>
+                            <assign variable="cunt" expression="cunt+1"/>
+                            <output expression="i&amp;&quot;=&quot;&amp;cunt" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <assign variable="j" expression="j/10"/>
+                </while>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
